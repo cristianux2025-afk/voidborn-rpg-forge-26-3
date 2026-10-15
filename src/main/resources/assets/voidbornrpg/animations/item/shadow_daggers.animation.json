@@ -1,0 +1,70 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.shadow_daggers.idle": {
+      "loop": true,
+      "animation_length": 1.5,
+      "bones": {
+        "dagger_root": {
+          "position": {
+            "0.0": [0, 0, 0],
+            "0.75": [0, 0.5, 0],
+            "1.5": [0, 0, 0]
+          }
+        }
+      }
+    },
+    "animation.shadow_daggers.flurry_1": {
+      "loop": false,
+      "animation_length": 0.25,
+      "bones": {
+        "dagger_root": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.12": [55, -45, 0],
+            "0.25": [0, 0, 0]
+          }
+        }
+      }
+    },
+    "animation.shadow_daggers.flurry_2": {
+      "loop": false,
+      "animation_length": 0.25,
+      "bones": {
+        "dagger_root": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.12": [-65, 55, 45],
+            "0.25": [0, 0, 0]
+          }
+        }
+      }
+    },
+    "animation.shadow_daggers.shadow_dash": {
+      "loop": false,
+      "animation_length": 0.4,
+      "bones": {
+        "dagger_root": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.2": [90, 180, 0],
+            "0.4": [0, 360, 0]
+          }
+        }
+      }
+    },
+    "animation.shadow_daggers.ultimate_dance": {
+      "loop": false,
+      "animation_length": 1.25,
+      "bones": {
+        "dagger_root": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.6": [0, 720, 45],
+            "1.25": [0, 1080, 0]
+          }
+        }
+      }
+    }
+  }
+}

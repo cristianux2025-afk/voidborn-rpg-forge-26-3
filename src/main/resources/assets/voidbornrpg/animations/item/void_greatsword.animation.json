@@ -1,0 +1,103 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.void_greatsword.idle_stance": {
+      "loop": true,
+      "animation_length": 2.0,
+      "bones": {
+        "void_core": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "1.0": [0, 180, 0],
+            "2.0": [0, 360, 0]
+          },
+          "scale": {
+            "0.0": [1.0, 1.0, 1.0],
+            "1.0": [1.15, 1.15, 1.15],
+            "2.0": [1.0, 1.0, 1.0]
+          }
+        }
+      }
+    },
+    "animation.void_greatsword.combo_1": {
+      "loop": false,
+      "animation_length": 0.45,
+      "bones": {
+        "greatsword_root": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.12": [-45, -35, 25],
+            "0.28": [65, 40, -30],
+            "0.45": [0, 0, 0]
+          }
+        }
+      }
+    },
+    "animation.void_greatsword.combo_2": {
+      "loop": false,
+      "animation_length": 0.45,
+      "bones": {
+        "greatsword_root": {
+          "rotation": {
+            "0.0": [65, 40, -30],
+            "0.18": [-55, 45, 35],
+            "0.45": [0, 0, 0]
+          }
+        }
+      }
+    },
+    "animation.void_greatsword.combo_3": {
+      "loop": false,
+      "animation_length": 0.65,
+      "bones": {
+        "greatsword_root": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.25": [-85, 0, 0],
+            "0.42": [95, 0, 0],
+            "0.65": [0, 0, 0]
+          },
+          "scale": {
+            "0.0": [1.0, 1.0, 1.0],
+            "0.35": [1.25, 1.35, 1.25],
+            "0.65": [1.0, 1.0, 1.0]
+          }
+        }
+      }
+    },
+    "animation.void_greatsword.special_cleave": {
+      "loop": false,
+      "animation_length": 0.75,
+      "bones": {
+        "greatsword_root": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.2": [0, -110, 90],
+            "0.45": [0, 140, 90],
+            "0.75": [0, 0, 0]
+          }
+        }
+      }
+    },
+    "animation.void_greatsword.ultimate_cast": {
+      "loop": false,
+      "animation_length": 1.35,
+      "bones": {
+        "greatsword_root": {
+          "position": {
+            "0.0": [0, 0, 0],
+            "0.85": [0, 14, 0],
+            "1.05": [0, -6, 4],
+            "1.35": [0, 0, 0]
+          },
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.85": [-90, 360, 0],
+            "1.05": [85, 360, 0],
+            "1.35": [0, 360, 0]
+          }
+        }
+      }
+    }
+  }
+}

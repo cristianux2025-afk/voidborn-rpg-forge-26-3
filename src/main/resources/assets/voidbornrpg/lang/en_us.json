@@ -1,0 +1,19 @@
+{
+  "itemGroup.voidbornrpg.voidborn_tab": "Voidborn RPG: Void Arsenal",
+  "item.voidbornrpg.void_greatsword": "Void Greatsword",
+  "item.voidbornrpg.shadow_daggers": "Shadow Daggers",
+  "item.voidbornrpg.voidborn_helmet": "Voidborn Helmet",
+  "item.voidbornrpg.voidborn_chestplate": "Voidborn Chestplate",
+  "item.voidbornrpg.voidborn_leggings": "Voidborn Leggings",
+  "item.voidbornrpg.voidborn_boots": "Voidborn Boots",
+  "attribute.name.voidbornrpg.armor_penetration": "Armor Penetration",
+  "attribute.name.voidbornrpg.max_mana": "Max Mana",
+  "attribute.name.voidbornrpg.mana_regen": "Mana Regeneration",
+  "attribute.name.voidbornrpg.crit_multiplier": "Critical Damage Multiplier",
+  "key.categories.voidbornrpg": "Voidborn RPG - Combat",
+  "key.voidbornrpg.ultimate_skill": "Ultimate Skill: Void Cataclysm",
+  "key.voidbornrpg.special_skill": "Weapon Special Attack",
+  "message.voidbornrpg.require_weapon": "You must wield a Void weapon to unleash your Ultimate!",
+  "message.voidbornrpg.ultimate_on_cooldown": "Void Cataclysm on cooldown (%s s)",
+  "message.voidbornrpg.insufficient_mana": "Insufficient mana (%s required)"
+}

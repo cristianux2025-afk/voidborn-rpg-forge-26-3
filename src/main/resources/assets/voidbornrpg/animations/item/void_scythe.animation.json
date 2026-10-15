@@ -1,0 +1,50 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.void_scythe.idle_float": {
+      "loop": true,
+      "animation_length": 2.0,
+      "bones": {
+        "scythe_root": {
+          "position": {"0.0": [0, 0, 0], "1.0": [0, 0.6, 0], "2.0": [0, 0, 0]}
+        }
+      }
+    },
+    "animation.void_scythe.sweep_1": {
+      "loop": false,
+      "animation_length": 0.4,
+      "bones": {
+        "scythe_root": {
+          "rotation": {"0.0": [0, 0, 0], "0.2": [0, 140, 80], "0.4": [0, 0, 0]}
+        }
+      }
+    },
+    "animation.void_scythe.sweep_2": {
+      "loop": false,
+      "animation_length": 0.4,
+      "bones": {
+        "scythe_root": {
+          "rotation": {"0.0": [0, 0, 0], "0.2": [0, -140, -80], "0.4": [0, 0, 0]}
+        }
+      }
+    },
+    "animation.void_scythe.whirlwind_360": {
+      "loop": false,
+      "animation_length": 0.65,
+      "bones": {
+        "scythe_root": {
+          "rotation": {"0.0": [0, 0, 0], "0.32": [0, 360, 90], "0.65": [0, 720, 0]}
+        }
+      }
+    },
+    "animation.void_scythe.ultimate_reap": {
+      "loop": false,
+      "animation_length": 1.25,
+      "bones": {
+        "scythe_root": {
+          "rotation": {"0.0": [0, 0, 0], "0.75": [-95, 360, 0], "1.25": [85, 720, 0]}
+        }
+      }
+    }
+  }
+}

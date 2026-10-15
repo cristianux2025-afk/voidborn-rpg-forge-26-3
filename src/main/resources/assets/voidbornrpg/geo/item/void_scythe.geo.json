@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.void_scythe",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 4,
+        "visible_bounds_height": 4,
+        "visible_bounds_offset": [0, 1.5, 0]
+      },
+      "bones": [
+        {
+          "name": "scythe_root",
+          "pivot": [0, 10, 0],
+          "cubes": [
+            {"origin": [-0.8, 0, -0.8], "size": [1.6, 34, 1.6], "uv": [0, 0]},
+            {"origin": [-1.5, 31, -1.5], "size": [14, 3, 2], "uv": [8, 0]}
+          ]
+        }
+      ]
+    }
+  ]
+}

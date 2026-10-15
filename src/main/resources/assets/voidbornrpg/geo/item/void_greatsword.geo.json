@@ -1,0 +1,34 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.void_greatsword",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 3,
+        "visible_bounds_height": 4,
+        "visible_bounds_offset": [0, 1, 0]
+      },
+      "bones": [
+        {
+          "name": "greatsword_root",
+          "pivot": [0, 8, 0],
+          "cubes": [
+            {"origin": [-1, 0, -1], "size": [2, 8, 2], "uv": [0, 0]},
+            {"origin": [-5, 8, -1.5], "size": [10, 2, 3], "uv": [8, 0]},
+            {"origin": [-2.5, 10, -0.5], "size": [5, 26, 1], "uv": [0, 12]}
+          ]
+        },
+        {
+          "name": "void_core",
+          "parent": "greatsword_root",
+          "pivot": [0, 9, 0],
+          "cubes": [
+            {"origin": [-1.5, 7.5, -2], "size": [3, 3, 4], "uv": [16, 12]}
+          ]
+        }
+      ]
+    }
+  ]
+}

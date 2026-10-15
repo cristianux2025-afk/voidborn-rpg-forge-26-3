@@ -1,0 +1,38 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.voidborn_armor.idle_pulse": {
+      "loop": true,
+      "animation_length": 3.0,
+      "bones": {
+        "armorBody": {
+          "scale": {
+            "0.0": [1.0, 1.0, 1.0],
+            "1.5": [1.02, 1.02, 1.02],
+            "3.0": [1.0, 1.0, 1.0]
+          }
+        }
+      }
+    },
+    "animation.voidborn_armor.combat_flare": {
+      "loop": true,
+      "animation_length": 1.0,
+      "bones": {
+        "armorRightArm": {
+          "scale": {
+            "0.0": [1.0, 1.0, 1.0],
+            "0.5": [1.06, 1.06, 1.06],
+            "1.0": [1.0, 1.0, 1.0]
+          }
+        },
+        "armorLeftArm": {
+          "scale": {
+            "0.0": [1.0, 1.0, 1.0],
+            "0.5": [1.06, 1.06, 1.06],
+            "1.0": [1.0, 1.0, 1.0]
+          }
+        }
+      }
+    }
+  }
+}

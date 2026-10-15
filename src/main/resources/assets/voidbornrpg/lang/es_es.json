@@ -1,0 +1,19 @@
+{
+  "itemGroup.voidbornrpg.voidborn_tab": "Voidborn RPG: Arsenal del Vacío",
+  "item.voidbornrpg.void_greatsword": "Espadón del Vacío",
+  "item.voidbornrpg.shadow_daggers": "Dagas de Sombras",
+  "item.voidbornrpg.voidborn_helmet": "Yelmo del Vacío",
+  "item.voidbornrpg.voidborn_chestplate": "Coraza del Vacío",
+  "item.voidbornrpg.voidborn_leggings": "Grebas del Vacío",
+  "item.voidbornrpg.voidborn_boots": "Botas del Vacío",
+  "attribute.name.voidbornrpg.armor_penetration": "Penetración de Armadura",
+  "attribute.name.voidbornrpg.max_mana": "Maná Máximo",
+  "attribute.name.voidbornrpg.mana_regen": "Regeneración de Maná",
+  "attribute.name.voidbornrpg.crit_multiplier": "Daño Crítico",
+  "key.categories.voidbornrpg": "Voidborn RPG - Combate",
+  "key.voidbornrpg.ultimate_skill": "Habilidad Definitiva: Cataclismo del Vacío",
+  "key.voidbornrpg.special_skill": "Ataque Especial de Arma",
+  "message.voidbornrpg.require_weapon": "¡Necesitas empuñar un arma del Vacío para desatar tu Ultimate!",
+  "message.voidbornrpg.ultimate_on_cooldown": "Cataclismo del Vacío en enfriamiento (%s s)",
+  "message.voidbornrpg.insufficient_mana": "Maná insuficiente (%s requerido)"
+}
